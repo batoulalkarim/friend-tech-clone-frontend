@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(216, 216, 216);
+  padding: 1em 0;
+  .left {
+    font-size: 1.5em;
+    font-weight: 500;
+    .friendText {
+      color: rgb(0, 186, 250);
+    }
+  }
+  .right {
+    .balanceContainer {
+      padding: 0 10px;
+      border-radius: 32px;
+      border: 1px solid rgb(216, 216, 216);
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 6px;
+      .ethLogo {
+        padding-top: 4px;
+      }
+      .balance {
+        display: flex;
+        gap: 4px;
+        .balanceText {
+          color: #868686;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 8px;
+        }
+      }
+    }
+  }
+}
