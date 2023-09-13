@@ -10,7 +10,12 @@ const Header = () => {
       <div className={styles.right}>
         <div className={styles.balanceContainer}>
           <div className={styles.ethLogo}>
-            <Image alt=" " src="/ethlogo-blue.svg" height={16} width={13} />
+            <Image
+              alt=" "
+              src="/header/ethlogo-blue.svg"
+              height={16}
+              width={13}
+            />
           </div>
           <div className={styles.balance}>
             <p className={styles.balanceText}>8.32429</p>

@@ -7,6 +7,7 @@
   .left {
     font-size: 1.4em;
     font-weight: 500;
+    font-family: "Hanken Grotesk", sans-serif;
     .friendText {
       color: rgb(0, 186, 250);
     }
@@ -20,6 +21,7 @@
       flex-direction: row;
       align-items: center;
       gap: 6px;
+      font-family: "Hanken Grotesk", sans-serif;
       .ethLogo {
         padding-top: 4px;
       }
