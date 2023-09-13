@@ -1,0 +1,9 @@
+.container {
+  position: fixed;
+  bottom: 120px;
+  right: 25px;
+  .icon {
+    border-radius: 64px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 4px;
+  }
+}

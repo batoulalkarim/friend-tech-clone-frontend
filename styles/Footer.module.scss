@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  width: -webkit-fill-available;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 8px;
+  padding-top: 0.5em;
+  padding-bottom: 2em;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  z-index: 100;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  .homeContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .icon {
+      opacity: 0.5;
+    }
+    .text {
+      font-size: 14px;
+      color: #adb5bd;
+    }
+  }
+  .chatsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .icon {
+      opacity: 0.5;
+    }
+    .text {
+      font-size: 14px;
+      color: #6c757d;
+    }
+  }
+  .exploreContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .icon {
+      opacity: 0.5;
+    }
+    .text {
+      font-size: 14px;
+      color: #6c757d;
+    }
+  }
+  .airdropContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .icon {
+      opacity: 0.5;
+    }
+    .text {
+      font-size: 14px;
+      color: #6c757d;
+    }
+  }
+}
